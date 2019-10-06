@@ -5,4 +5,4 @@ execute at @s if block ~ ~0.0625 ~ potatoes[age=7] run function auto_harvest:pla
 execute at @s if block ~ ~0.0625 ~ beetroots[age=3] run function auto_harvest:plants/beetroots
 
 # sugar cane
-execute at @s if block ~ ~1 ~ sugar_cane[age=0] run function auto_harvest:plants/sugar_cane
+execute at @s if block ~ ~1 ~ sugar_cane run function auto_harvest:plants/sugar_cane
